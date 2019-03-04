@@ -1,0 +1,120 @@
+/* ---------------------------------------------------------------
+    Style.css file for Week1. Version 2.0
+    Last modification: December 6, 2018
+    Summary of modifications:
+        Modifications for Week 1:
+        - remove fixed 960 width that was mandatory on week1 but it created functionality issues
+        - correct the flex
+        - correct "article" section, which used to overlap with Navigation, navigation buttons and footer sections when
+                window shrinks.
+        Modification for Week 2:
+        - Hover over the buttons
+        - Add content to sections
+
+    ----------------------------------------------------------------        
+*/
+
+/* Global/General section */
+
+html {
+   /* background-color: #fa923f;*/
+    padding: 10px;
+    /* min-width: 600px; */
+}
+
+body {
+    font-family: "Arial",Helvetica,"Helvetica Neue",sans-serif;
+    color: #777;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1;
+    background: #cdcaca;
+    width: 100%;      
+    /* padding: 10px; */
+    padding: 10px 200px 10px 200px;  
+   
+   
+    /* margin: auto; */
+   }
+
+h1{
+    color: #777;
+    /*background: #cdcaca;
+    line-height: 50px;*/
+    margin: 0;
+}
+
+p{
+    text-align: justify;
+    color:#777;
+}
+
+img {
+    max-width: 100%;
+    /* height: auto; */
+}
+
+.jumbotron {
+    background-color: #cdcaca;
+    padding: 10;
+}
+
+.dark-row{
+    background:#AEC5E8;
+    
+}
+.light-row{
+    
+    background:#F1F3F0;
+}
+
+.score-table-head{
+    
+    background: #AEC5E8;
+}
+
+@media only screen and (max-width: 640px) {
+    body, html {
+        padding: 0px;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body, html {
+        padding: 0px;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body, html {
+        padding: 0px;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* body, html { */
+    html{
+        padding: 5px 50px 10px 50px;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* body, html { */
+    html {
+        padding: 10px 200px 10px 200px;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* body, html { */
+    html{
+        padding: 10px 200px 10px 200px;
+    }
+}
